@@ -31,6 +31,5 @@ EXPOSE 10080
 
 ADD ams /usr/local/bin/
 RUN chmod +x /usr/local/bin/ams
-RUN mkdir /var/data/
 
 CMD ["ams"]
