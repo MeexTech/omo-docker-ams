@@ -21,7 +21,7 @@
 
 # 使用mysql
 ```
-~# docker run --restart=always --name=omo-kms -e AMS_DATABASE_DRIVER=mysql -e AMS_MYSQL_ADDR=127.0.0.1:3306 -e AMS_MYSQL_USER=root -e AMS_MYSQL_PASSWORD=mysql@OMO -e AMS_MYSQL_DATABASE=ams -d xtechcloud/omo-ams
+~# docker run --restart=always --name=omo-ams -e AMS_DATABASE_DRIVER=mysql -e AMS_MYSQL_ADDR=127.0.0.1:3306 -e AMS_MYSQL_USER=root -e AMS_MYSQL_PASSWORD=mysql@OMO -e AMS_MYSQL_DATABASE=ams -d xtechcloud/omo-ams
  ```
 
 # API
